@@ -17,8 +17,8 @@ module.exports = {
 
         const embed = new MessageEmbed()
             .setColor(3447003)
-            .addField(':flag_fr: Liste des stations:', '`1`: AnimeNexus\n`2`: RadioAnimes\n`3`: Skyrock\n`4`: Nolife\n')
-            .addField(':flag_um: Stations', '`1`: AnimeNexus\n`2`: RadioAnimes\n`3`: Skyrock\n`4`: Nolife\n')
+            .addField(':flag_fr: Liste des stations:', '`1`: RadioAnimes')
+            .addField(':flag_um: Stations', '`1`: RadioAnimes')
             .setFooter("Emilia エミリア Radio", `${client.user.avatarURL()}`)
             .setThumbnail(client.user.avatarURL())
 
