@@ -29,6 +29,10 @@ Plays a radio station
 * `list`
 Lists the possible radio stations to be played
 
+
+* `eval`
+Let you test some JS code
+
 # Self-Hosting EmiRadio:
 ## Dependencies
 These are the stuff you'll have to install before running EmiRadio
