@@ -4,7 +4,7 @@ const { MessageEmbed } = require('discord.js')
 module.exports = {
     name : 'play',
     category : 'radio',
-    timeout: 5000,
+    timeout: 3000,
     description : 'Lance une station',
 
     /**
