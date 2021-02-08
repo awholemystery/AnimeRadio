@@ -29,6 +29,9 @@ Plays a radio station
 * `list`
 Lists the possible radio stations to be played
 
+* `link`
+Let you play station you want
+
 
 * `eval`
 Let you test some JS code
