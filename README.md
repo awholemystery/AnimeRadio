@@ -3,7 +3,7 @@
 </p>
 
 # EmiRadio is a discord bot wich allows you to listen radio stations
-Made with heart and discord.js
+Made with heart and discord.js and some rice
 
 # Command List:
 EmiRadio has multiple prefixes, `+`, `emilia` and by mention.
