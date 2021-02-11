@@ -13,6 +13,7 @@ client.on('message', async message =>{
         if (message.content.toLowerCase().startsWith(thisPrefix)) prefix = thisPrefix;
     }
     if(!message.guild) return;
+    if(!message.content.toLowerCase().startsWith(prefix)) return;
     if(!message.member) message.member = await message.guild.fetchMember(message);
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const cmd = args[0];
