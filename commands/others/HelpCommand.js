@@ -18,7 +18,7 @@ module.exports = {
             .setColor(3447003)
             .setTitle("Help - Pannel d'aide")
             .setDescription(":flag_fr: Le prefix est `+`\n:flag_um: Bot's prefix is `+`")
-            .addField("🎶 **Radio**", "`play`\n`leave`\n`list`")
+            .addField("🎶 **Radio**", "`play`\n`leave`\n`link`\n`list`")
             .addField("🔨 **Autres**", "`help`\n`invite`\n`ping`\n`stats`")
             .setThumbnail(client.user.avatarURL())
             .setFooter("Emilia エミリア Radio", `${client.user.avatarURL()}`)
