@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/804065774636499006/809495624901984346/thumb-1920-695678.png" />
+  <a href="http://emiradio.eu/" img src="https://cdn.discordapp.com/attachments/804065774636499006/809495624901984346/thumb-1920-695678.png" />
 </p>
 
 # EmiRadio is a discord bot wich allows you to listen radio stations
