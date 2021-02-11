@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/804065774636499006/805668957343973416/5c392064addb03be3dc2bfe6c4e78822.jpg" />
+  <img src="809495625409757235" />
 </p>
 
 # EmiRadio is a discord bot wich allows you to listen radio stations
