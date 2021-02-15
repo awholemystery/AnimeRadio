@@ -35,13 +35,6 @@ Let you play station you want
 * `eval`
 Let you test some JS code
 
-# Self-Hosting EmiRadio:
-## Dependencies
-These are the stuff you'll have to install before running EmiRadio
-
-* `discord.js`, I think it's logic
-* `npm install --save @discordjs/opus` to install voice for the bot
-* `npm install ffmpeg-static`
 
 # Links:
 [Invite](https://discord.com/oauth2/authorize?client_id=777260982513827861&permissions=8&scope=bot)
