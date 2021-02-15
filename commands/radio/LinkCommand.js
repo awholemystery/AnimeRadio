@@ -4,7 +4,7 @@ const Discord = require('discord.js')
 module.exports = {
     name : 'link',
     category : 'radio',
-    timeout: 5000,
+    timeout: 3000,
     description : 'Permet de lire le flux indiquer',
 
     /**
