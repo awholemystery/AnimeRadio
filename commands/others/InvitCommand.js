@@ -22,7 +22,7 @@ module.exports = {
         .addField(':flag_um: Add me on your server!', '[Click here](https://discord.com/api/oauth2/authorize?client_id=777260982513827861&permissions=8&scope=bot)')
         .addField(':flag_um: Join support server!', '[Click here](https://discord.gg/TCk7CRHxjZ)')
         .setThumbnail(client.user.avatarURL())
-        .setFooter("Emilia エミリア Radio", `${client.user.avatarURL()}`)
+        .setFooter("AnimeRadio レム", `${client.user.avatarURL()}`)
   
       message.channel.send(embed);
     }

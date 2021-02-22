@@ -1,4 +1,4 @@
-const client = require('../emiradio')
+const client = require('../animeradio')
 
 
 client.on("guildCreate", async guild => {

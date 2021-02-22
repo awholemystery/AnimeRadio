@@ -1,12 +1,12 @@
 const {Collection } = require('discord.js')
-const client = require('../emiradio')
+const client = require('../animeradio')
 const Timeout = new Collection();
 const ms = require('ms')
 
 
 client.on('message', async message =>{
     if(message.author.bot) return;
-    var prefixes = ["<@777260982513827861>", "<@!777260982513827861>", "+", "emilia"]
+    var prefixes = ["<@777260982513827861>", "<@!777260982513827861>", "+", "animeradio"]
 
     let prefix = false;
     for (const thisPrefix of prefixes) {
@@ -22,7 +22,7 @@ client.on('message', async message =>{
     if(!command) command = client.commands.get(client.aliases.get(cmd));
     if(command) {
         if(command.timeout) {
-            if(Timeout.has(`${command.name}${message.author.id}`)) return message.channel.send(`> Vous devez patienter encore ${ms(Timeout.get(`${command.name}${message.author.id}`) - Date.now(), { long: true })}`)
+            if(Timeout.has(`${command.name}${message.author.id}`)) return message.channel.send(`> :flag_fr: Hey <@${message.author.id}> ! Vous devez attendre avant de faire cela!\n> :flag_um: Hey <@${message.author.id}> ! You have to wait until use again this!`)
             command.run(client, message,args)
             Timeout.set(`${command.name}${message.author.id}`, Date.now() + command.timeout)
             setTimeout(() => {

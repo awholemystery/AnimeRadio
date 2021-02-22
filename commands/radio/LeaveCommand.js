@@ -4,7 +4,7 @@ const { MessageEmbed } = require('discord.js')
 module.exports = {
     name : 'leave',
     category : 'radio',
-    timeout: 3000,
+    timeout: 5000,
     description : 'Déconnecte le bot de votre vocal',
 
     /**
@@ -19,7 +19,7 @@ module.exports = {
             const embedg = new MessageEmbed()
               .setColor("#68ca55")
               .setDescription(":flag_fr: Déconnection du salon vocal réussi!\n:flag_um: Disconnected from voice channel succesfully!")
-              .setFooter("Emilia エミリア Radio", `${client.user.avatarURL()}`)
+              .setFooter("AnimeRadio レム", `${client.user.avatarURL()}`)
         
             message.channel.send(embedg);
             message.member.voice.channel.leave();
@@ -28,7 +28,7 @@ module.exports = {
             const embehd = new MessageEmbed()
               .setColor("#ff0000")
               .setDescription(":flag_fr: Vous n'êtes pas dans un salon vocal!\n:flag_um: You aren't on a voice channel!")
-              .setFooter("Emilia エミリア Radio", `${client.user.avatarURL()}`)
+              .setFooter("AnimeRadio レム", `${client.user.avatarURL()}`)
         
             message.channel.send(embehd)
             return
