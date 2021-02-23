@@ -2,11 +2,11 @@
   <img src="https://cdn.discordapp.com/attachments/804065774636499006/809495624901984346/thumb-1920-695678.png" />
 </p>
 
-# EmiRadio is a discord bot wich allows you to listen radio stations
+# AnimeRadio is a discord bot wich allows you to listen radio stations
 Made with heart and discord.js and some rice
 
 # Command List:
-EmiRadio has multiple prefixes, `+`, `emilia` and by mention.
+AnimeRadio has multiple prefixes, `+`, `emilia` and by mention.
 
 * `help`
 Displays the help message
@@ -37,6 +37,4 @@ Let you test some JS code
 
 
 # Links:
-[Invite](https://discord.com/oauth2/authorize?client_id=777260982513827861&permissions=8&scope=bot)
-[Website](https://www.emiradio.eu/)
 [Support](https://discord.gg/TCk7CRHxjZ)
